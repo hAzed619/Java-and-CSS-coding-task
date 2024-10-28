@@ -1,0 +1,36 @@
+/*Task 12: Changing background and color */
+.styleDiv {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+}
+/*Task 13: Adding borders and padding */
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+/*Task 14: font Styling */
+.styledPara {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+}
+/*Task 15: Hover effect on Button */
+.hover-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;   
+}
+.hover-button:hover {
+    background-color: darkgreen;
+}
+
+/*Task 16: Align Text Using Flexbox */
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}

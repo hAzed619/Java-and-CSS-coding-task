@@ -69,7 +69,7 @@ document.getElementById("checkFruit").addEventListener("click", () => {
     switch (fruit) {
         case "apple": message = "Apple is red"; break
         case "banana": message = "Banana is yellow"; break
-        case "Pumpkin": message = "Pumpkin is orange"; break
+        case "pumpkin": message = "Pumpkin is orange"; break
         default: message = "Invalid Input"; break
     }
 document.getElementById("fruitOutput").textContent = message
